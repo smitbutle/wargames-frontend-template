@@ -3,6 +3,17 @@
     padding: 0px;
     box-sizing: border-box;
 }
+img{
+    margin-top: 2vh;
+    opacity: 100%;
+    width: 30vw;
+    height: auto;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    
+}
 iframe{
     height: 100%;
     width: 100%;
