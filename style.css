@@ -84,7 +84,7 @@ section {
     width: 80%;
     border-radius: 10px;
     /* other styles */
-    background: rgba(255,255,255, 0.02);
+    background: rgba(255,255,255, 0.03);
     backdrop-filter: blur(10px);
     /* fallback cross browser compatibility */
     -webkit-backdrop-filter: blur(60px);
