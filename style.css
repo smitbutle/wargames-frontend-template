@@ -82,7 +82,7 @@ section {
     margin-bottom: 20px;
     height: 100%;
     width: 80%;
-    border-radius: 20px;
+    border-radius: 10px;
     /* other styles */
     /* background: rgba(39, 39, 39, 0.1); */
     backdrop-filter: blur(10px);
