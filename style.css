@@ -3,7 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+iframe{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
 canvas {
     display: block;
     position: absolute;
