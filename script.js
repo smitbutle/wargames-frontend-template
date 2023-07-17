@@ -9,7 +9,7 @@ function startMatrix() {
 
     // Setting up the letters
     var letters =
-      "ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ";
+      "ABCDEFGHIJKLMNOPQRSTUVXYZ0123456789#*$ABCDEFGHIJKLMNOPQRSTUVXYZ0123456789#*$ABCDEFGHIJKLMNOPQRSTUVXYZ0123456789#*$ABCDEFGHIJKLMNOPQRSTUVXYZ0123456789#*$ABCDEFGHIJKLMNOPQRSTUVXYZ0123456789#*$";
     letters = letters.split("");
 
     // Setting up the columns
@@ -30,7 +30,7 @@ function startMatrix() {
       for (var i = 0; i < drops.length; i++) {
         var text = letters[Math.floor(Math.random() * letters.length)];
         //   ctx.fillStyle = "#0f0";
-          ctx.fillStyle = "#8098ff";
+        ctx.fillStyle = "#03a9f4";
         ctx.fillText(text, i * fontSize, drops[i] * fontSize);
         drops[i]++;
         if (drops[i] * fontSize > canvas.height && Math.random() > 0.95) {
