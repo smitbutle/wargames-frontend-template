@@ -24,6 +24,12 @@
     position: relative;
     
 }
+#logo{
+    position:fixed;
+    right: 10px;
+    top: 10px;
+    max-width: 180px;
+}
 iframe{
     height: 100%;
     width: 100%;
